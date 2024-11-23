@@ -1,5 +1,5 @@
 //npm install @google/generative-ai
-//const GEMINI_API_KEY = "AIzaSyCfATVbu0yX6DAjydBNr42Aty3cd63Gsrc"
+//const GEMINI_API_KEY = ""
 
 import {
     GoogleGenerativeAI,
@@ -7,7 +7,7 @@ import {
     HarmBlockThreshold,
   } from "@google/generative-ai"
   
-  const apiKey = "AIzaSyDxapORxHkAg0gi92aJXBjJR7fny02VfGo";
+  const apiKey = "";
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
